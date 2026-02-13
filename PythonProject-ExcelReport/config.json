@@ -1,0 +1,6 @@
+{
+  "input_file": "data/sales_data.csv",
+  "file_type": "csv",
+  "top_n": 11,
+  "output_dir": "output"
+}
