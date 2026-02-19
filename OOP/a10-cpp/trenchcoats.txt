@@ -1,0 +1,11 @@
+L Red 500 0 www.google.com
+M Green 130 12 www.monsterenergy.com
+XL Yellow 160 3 yellow_xl.jpg
+M White 150 10 www.youtube.com
+L Purple 120 5 www.google.com
+S Turquoise 100 8 www.redbull.com
+M Brown 130 12 www.monsterenergy.com
+XL Pink 160 3 yellow_xl.jpg
+XXL Red 299 1 www.pewdiepie.com
+S Green 200 5 www.gog.com
+Uranus glue 69420 222 www.jmekerie.ro
