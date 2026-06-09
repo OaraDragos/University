@@ -8,4 +8,4 @@ cmds = ["rm -rf node_modules && npm install --legacy-peer-deps --include=dev"]
 cmds = ["node_modules/.bin/prisma generate"]
 
 [start]
-cmd = "node_modules/.bin/prisma migrate deploy && node server.js"
+cmd = "node_modules/.bin/prisma db push --accept-data-loss && node server.js"
