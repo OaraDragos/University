@@ -1,8 +1,11 @@
+[variables]
+NODE_ENV = "development"
+
 [phases.install]
-cmds = ["rm -rf node_modules && npm install --legacy-peer-deps"]
+cmds = ["rm -rf node_modules && npm install --legacy-peer-deps --include=dev"]
 
 [phases.build]
-cmds = ["npx prisma generate"]
+cmds = ["node_modules/.bin/prisma generate"]
 
 [start]
-cmd = "npx prisma migrate deploy && node server.js"
+cmd = "node_modules/.bin/prisma migrate deploy && node server.js"
