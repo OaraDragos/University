@@ -1,0 +1,7 @@
+node_modules
+dist
+.git
+*.db
+dev.db
+coverage
+test-results
